@@ -49,6 +49,8 @@ public object NotifierManager {
          * @param data Push Notification Payload Data
          */
         public fun onPayloadData(data:PayloadData) {}
+
+        public fun onNotificationPayload(title: String, body: String) {}
     }
 
 
